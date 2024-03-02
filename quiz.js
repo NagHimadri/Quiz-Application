@@ -65,7 +65,7 @@ const showResult = () => {
 
   resultScreen.querySelector(".wrong").textContent = `Wrong Answers: ${wrongCount}`
 
-  resultScreen.querySelector(".score").textContent = `Score: ${(correctCount - wrongCount) * 10}`
+  resultScreen.querySelector(".score").textContent = `Score: ${(correctCount) * 10}`
 }
 
 const showQuestion = (qNumber) =>{
